@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="node_modules\nes.css\css\nes.min.css">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+
+
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <article class="nes-container is-rounded is-dark info">
+        <p class="info-ligne1"></p>
+        <!-- <p class="info-ligne2"> A FAIRE </p> -->
+    </article>
+
+
+    <section class="arene">
+
+        <article class="article1">
+            <figure>
+                <button type="button" class="nes-btn is-primary attack-btn ">Attack</button>
+                <button type="button" class="nes-btn is-error special-btn">Special</button>
+            </figure>
+
+            <figure>
+                <p>Chevalier Batman</p>
+            </figure>
+
+            <figure>
+                <img class="hero" src="assets/img/fighter.png" alt="hero">
+            </figure>
+
+            <figure>
+                <progress class="nes-progress is-success progressHero" value="100" max="100"></progress>
+            </figure>
+
+            <figure class="affiche-vie-player" >
+                <p></p>
+            </figure>
+
+        </article>
+
+        <article>
+            <img class="arrow" src="assets/img/arrow.png" alt="arrow">
+        </article>
+
+        <article class="article3 ">
+
+            <div class="disable divEnemy">
+                <figure>
+                    <p class="nom-enemy"></p>
+                </figure>
+                <figure>
+                    <img class="img-enemy" src="" alt="enemy">
+                </figure>
+                <figure>
+                    <progress class="nes-progress is-success progressEnemy" value="100" max="100"></progress>
+                </figure>
+            </div>
+
+            <figure class="blockBtnEnemy">
+                <button type="button" class="nes-btn is-warning adversaire-btn">Générer un Adversaire</button>
+            </figure>
+
+            <figure class="affiche-vie-enemy">
+                <p></p>
+            </figure>
+
+        </article>
+
+    </section>
+    <script src="assets/js/combatcustum2.js" type="module"></script>
+    <!-- <script src="assets/js/combatcustum.js" type="module"></script> -->
+</body>
+
+</html>
